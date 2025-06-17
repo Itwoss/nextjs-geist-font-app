@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file:///project/sandbox/user-workspace/src/app/providers.tsx"],"sourcesContent":["\"use client\";\n\nimport { Toaster } from \"sonner\";\n\nexport function Providers({ children }: { children: React.ReactNode }) {\n  return (\n    <>\n      {children}\n      <Toaster position=\"top-center\" />\n    </>\n  );\n}\n"],"names":[],"mappings":";;;;AAEA;AAFA;;;AAIO,SAAS,UAAU,EAAE,QAAQ,EAAiC;IACnE,qBACE;;YACG;0BACD,6LAAC,2IAAA,CAAA,UAAO;gBAAC,UAAS;;;;;;;;AAGxB;KAPgB","debugId":null}}]
+}
